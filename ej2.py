@@ -103,3 +103,8 @@ with open("NDA.pdf", "rb") as f:
 
 pdf_h_verificada_bob = pow(firma_AC, eAC, nAC)
 print("Firma verificada por Bob:", pdf_h_verificada_bob == pdf_h_AC)
+
+print("Hash de Alice verificada: ", pdf_h)
+print("Hash de AC: ", pdf_h_AC)
+print("Hash de bob verificada: ", pdf_h_verificada_bob)
+
